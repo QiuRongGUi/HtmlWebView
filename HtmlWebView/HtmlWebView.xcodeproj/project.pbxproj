@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4855C563D95B04E7BFCD0BA4 /* libPods-HtmlWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3804B6AB06300D403F334F1 /* libPods-HtmlWebView.a */; };
+		9702E04620864E5200F830D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E04520864E5200F830D5 /* AppDelegate.m */; };
+		9702E04920864E5200F830D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E04820864E5200F830D5 /* ViewController.m */; };
+		9702E04C20864E5200F830D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9702E04A20864E5200F830D5 /* Main.storyboard */; };
+		9702E04E20864E5200F830D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9702E04D20864E5200F830D5 /* Assets.xcassets */; };
+		9702E05120864E5200F830D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9702E04F20864E5200F830D5 /* LaunchScreen.storyboard */; };
+		9702E05420864E5200F830D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E05320864E5200F830D5 /* main.m */; };
+		9702E05C20864E7300F830D5 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E05B20864E7300F830D5 /* OneViewController.m */; };
+		9702E0652086544000F830D5 /* IMYWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E05F2086544000F830D5 /* IMYWebView.m */; };
+		9702E0662086544000F830D5 /* IMY_NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0622086544000F830D5 /* IMY_NJKWebViewProgress.m */; };
+		9702E0672086544000F830D5 /* WYWeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0642086544000F830D5 /* WYWeakScriptMessageDelegate.m */; };
+		9702E06D2086544500F830D5 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E06A2086544500F830D5 /* DACircularProgressView.m */; };
+		9702E06E2086544500F830D5 /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E06C2086544500F830D5 /* DALabeledCircularProgressView.m */; };
+		9702E0AE2086544A00F830D5 /* UIImage+ZLPhotoLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0742086544900F830D5 /* UIImage+ZLPhotoLib.m */; };
+		9702E0AF2086544A00F830D5 /* UIView+ZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0762086544A00F830D5 /* UIView+ZLExtension.m */; };
+		9702E0B02086544A00F830D5 /* ZLPhotoPickerBrowserPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E07D2086544A00F830D5 /* ZLPhotoPickerBrowserPhoto.m */; };
+		9702E0B12086544A00F830D5 /* ZLPhotoRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E07F2086544A00F830D5 /* ZLPhotoRect.m */; };
+		9702E0B22086544A00F830D5 /* ZLPhotoPickerBrowserViewController+SignlePhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0822086544A00F830D5 /* ZLPhotoPickerBrowserViewController+SignlePhotoBrowser.m */; };
+		9702E0B32086544A00F830D5 /* ZLPhotoPickerBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0842086544A00F830D5 /* ZLPhotoPickerBrowserViewController.m */; };
+		9702E0B42086544A00F830D5 /* ZLPhotoPickerBrowserPhotoImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0872086544A00F830D5 /* ZLPhotoPickerBrowserPhotoImageView.m */; };
+		9702E0B52086544A00F830D5 /* ZLPhotoPickerBrowserPhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0892086544A00F830D5 /* ZLPhotoPickerBrowserPhotoScrollView.m */; };
+		9702E0B62086544A00F830D5 /* ZLPhotoPickerBrowserPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E08B2086544A00F830D5 /* ZLPhotoPickerBrowserPhotoView.m */; };
+		9702E0B72086544A00F830D5 /* ZLPhotoPickerCustomToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E08D2086544A00F830D5 /* ZLPhotoPickerCustomToolBarView.m */; };
+		9702E0B82086544A00F830D5 /* ZLPhotoAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0912086544A00F830D5 /* ZLPhotoAssets.m */; };
+		9702E0B92086544A00F830D5 /* ZLPhotoPickerDatas.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0932086544A00F830D5 /* ZLPhotoPickerDatas.m */; };
+		9702E0BA2086544A00F830D5 /* ZLPhotoPickerGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0952086544A00F830D5 /* ZLPhotoPickerGroup.m */; };
+		9702E0BB2086544A00F830D5 /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0982086544A00F830D5 /* UIViewController+Alert.m */; };
+		9702E0BC2086544A00F830D5 /* ZLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E09A2086544A00F830D5 /* ZLNavigationController.m */; };
+		9702E0BD2086544A00F830D5 /* ZLPhotoPickerAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E09C2086544A00F830D5 /* ZLPhotoPickerAssetsViewController.m */; };
+		9702E0BE2086544A00F830D5 /* ZLPhotoPickerGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E09E2086544A00F830D5 /* ZLPhotoPickerGroupViewController.m */; };
+		9702E0BF2086544A00F830D5 /* ZLPhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0A02086544A00F830D5 /* ZLPhotoPickerViewController.m */; };
+		9702E0C02086544A00F830D5 /* ZLPhotoPickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0A32086544A00F830D5 /* ZLPhotoPickerCollectionView.m */; };
+		9702E0C12086544A00F830D5 /* ZLPhotoPickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0A52086544A00F830D5 /* ZLPhotoPickerCollectionViewCell.m */; };
+		9702E0C22086544A00F830D5 /* ZLPhotoPickerFooterCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0A72086544A00F830D5 /* ZLPhotoPickerFooterCollectionReusableView.m */; };
+		9702E0C32086544A00F830D5 /* ZLPhotoPickerGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0A92086544A00F830D5 /* ZLPhotoPickerGroupTableViewCell.m */; };
+		9702E0C42086544A00F830D5 /* ZLPhotoPickerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9702E0AB2086544A00F830D5 /* ZLPhotoPickerImageView.m */; };
+		9702E0C52086544A00F830D5 /* ZLPhotoLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9702E0AD2086544A00F830D5 /* ZLPhotoLib.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79FE45E22AF687EEBA6C2163 /* Pods-HtmlWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HtmlWebView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HtmlWebView/Pods-HtmlWebView.debug.xcconfig"; sourceTree = "<group>"; };
+		9702E04120864E5200F830D5 /* HtmlWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HtmlWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9702E04420864E5200F830D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9702E04520864E5200F830D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9702E04720864E5200F830D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9702E04820864E5200F830D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9702E04B20864E5200F830D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9702E04D20864E5200F830D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9702E05020864E5200F830D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9702E05220864E5200F830D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9702E05320864E5200F830D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9702E05A20864E7300F830D5 /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		9702E05B20864E7300F830D5 /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		9702E05E2086544000F830D5 /* IMYWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYWebView.h; sourceTree = "<group>"; };
+		9702E05F2086544000F830D5 /* IMYWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMYWebView.m; sourceTree = "<group>"; };
+		9702E0612086544000F830D5 /* IMY_NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMY_NJKWebViewProgress.h; sourceTree = "<group>"; };
+		9702E0622086544000F830D5 /* IMY_NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMY_NJKWebViewProgress.m; sourceTree = "<group>"; };
+		9702E0632086544000F830D5 /* WYWeakScriptMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWeakScriptMessageDelegate.h; sourceTree = "<group>"; };
+		9702E0642086544000F830D5 /* WYWeakScriptMessageDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWeakScriptMessageDelegate.m; sourceTree = "<group>"; };
+		9702E0692086544500F830D5 /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
+		9702E06A2086544500F830D5 /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
+		9702E06B2086544500F830D5 /* DALabeledCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALabeledCircularProgressView.h; sourceTree = "<group>"; };
+		9702E06C2086544500F830D5 /* DALabeledCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALabeledCircularProgressView.m; sourceTree = "<group>"; };
+		9702E0732086544900F830D5 /* UIImage+ZLPhotoLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZLPhotoLib.h"; sourceTree = "<group>"; };
+		9702E0742086544900F830D5 /* UIImage+ZLPhotoLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZLPhotoLib.m"; sourceTree = "<group>"; };
+		9702E0752086544A00F830D5 /* UIView+ZLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZLExtension.h"; sourceTree = "<group>"; };
+		9702E0762086544A00F830D5 /* UIView+ZLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZLExtension.m"; sourceTree = "<group>"; };
+		9702E0792086544A00F830D5 /* ZLPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhoto.h; sourceTree = "<group>"; };
+		9702E07C2086544A00F830D5 /* ZLPhotoPickerBrowserPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerBrowserPhoto.h; sourceTree = "<group>"; };
+		9702E07D2086544A00F830D5 /* ZLPhotoPickerBrowserPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoPickerBrowserPhoto.m; sourceTree = "<group>"; };
+		9702E07E2086544A00F830D5 /* ZLPhotoRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoRect.h; sourceTree = "<group>"; };
+		9702E07F2086544A00F830D5 /* ZLPhotoRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoRect.m; sourceTree = "<group>"; };
+		9702E0812086544A00F830D5 /* ZLPhotoPickerBrowserViewController+SignlePhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZLPhotoPickerBrowserViewController+SignlePhotoBrowser.h"; sourceTree = "<group>"; };
+		9702E0822086544A00F830D5 /* ZLPhotoPickerBrowserViewController+SignlePhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZLPhotoPickerBrowserViewController+SignlePhotoBrowser.m"; sourceTree = "<group>"; };
+		9702E0832086544A00F830D5 /* ZLPhotoPickerBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerBrowserViewController.h; sourceTree = "<group>"; };
+		9702E0842086544A00F830D5 /* ZLPhotoPickerBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoPickerBrowserViewController.m; sourceTree = "<group>"; };
+		9702E0862086544A00F830D5 /* ZLPhotoPickerBrowserPhotoImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerBrowserPhotoImageView.h; sourceTree = "<group>"; };
+		9702E0872086544A00F830D5 /* ZLPhotoPickerBrowserPhotoImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoPickerBrowserPhotoImageView.m; sourceTree = "<group>"; };
+		9702E0882086544A00F830D5 /* ZLPhotoPickerBrowserPhotoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerBrowserPhotoScrollView.h; sourceTree = "<group>"; };
+		9702E0892086544A00F830D5 /* ZLPhotoPickerBrowserPhotoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoPickerBrowserPhotoScrollView.m; sourceTree = "<group>"; };
+		9702E08A2086544A00F830D5 /* ZLPhotoPickerBrowserPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerBrowserPhotoView.h; sourceTree = "<group>"; };
+		9702E08B2086544A00F830D5 /* ZLPhotoPickerBrowserPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoPickerBrowserPhotoView.m; sourceTree = "<group>"; };
+		9702E08C2086544A00F830D5 /* ZLPhotoPickerCustomToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerCustomToolBarView.h; sourceTree = "<group>"; };
+		9702E08D2086544A00F830D5 /* ZLPhotoPickerCustomToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoPickerCustomToolBarView.m; sourceTree = "<group>"; };
+		9702E0902086544A00F830D5 /* ZLPhotoAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoAssets.h; sourceTree = "<group>"; };
+		9702E0912086544A00F830D5 /* ZLPhotoAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoAssets.m; sourceTree = "<group>"; };
+		9702E0922086544A00F830D5 /* ZLPhotoPickerDatas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerDatas.h; sourceTree = "<group>"; };
+		9702E0932086544A00F830D5 /* ZLPhotoPickerDatas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoPickerDatas.m; sourceTree = "<group>"; };
+		9702E0942086544A00F830D5 /* ZLPhotoPickerGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerGroup.h; sourceTree = "<group>"; };
+		9702E0952086544A00F830D5 /* ZLPhotoPickerGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoPickerGroup.m; sourceTree = "<group>"; };
+		9702E0972086544A00F830D5 /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alert.h"; sourceTree = "<group>"; };
+		9702E0982086544A00F830D5 /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alert.m"; sourceTree = "<group>"; };
+		9702E0992086544A00F830D5 /* ZLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLNavigationController.h; sourceTree = "<group>"; };
+		9702E09A2086544A00F830D5 /* ZLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLNavigationController.m; sourceTree = "<group>"; };
+		9702E09B2086544A00F830D5 /* ZLPhotoPickerAssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerAssetsViewController.h; sourceTree = "<group>"; };
+		9702E09C2086544A00F830D5 /* ZLPhotoPickerAssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoPickerAssetsViewController.m; sourceTree = "<group>"; };
+		9702E09D2086544A00F830D5 /* ZLPhotoPickerGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerGroupViewController.h; sourceTree = "<group>"; };
+		9702E09E2086544A00F830D5 /* ZLPhotoPickerGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoPickerGroupViewController.m; sourceTree = "<group>"; };
+		9702E09F2086544A00F830D5 /* ZLPhotoPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerViewController.h; sourceTree = "<group>"; };
+		9702E0A02086544A00F830D5 /* ZLPhotoPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoPickerViewController.m; sourceTree = "<group>"; };
+		9702E0A22086544A00F830D5 /* ZLPhotoPickerCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerCollectionView.h; sourceTree = "<group>"; };
+		9702E0A32086544A00F830D5 /* ZLPhotoPickerCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoPickerCollectionView.m; sourceTree = "<group>"; };
+		9702E0A42086544A00F830D5 /* ZLPhotoPickerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerCollectionViewCell.h; sourceTree = "<group>"; };
+		9702E0A52086544A00F830D5 /* ZLPhotoPickerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoPickerCollectionViewCell.m; sourceTree = "<group>"; };
+		9702E0A62086544A00F830D5 /* ZLPhotoPickerFooterCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerFooterCollectionReusableView.h; sourceTree = "<group>"; };
+		9702E0A72086544A00F830D5 /* ZLPhotoPickerFooterCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoPickerFooterCollectionReusableView.m; sourceTree = "<group>"; };
+		9702E0A82086544A00F830D5 /* ZLPhotoPickerGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerGroupTableViewCell.h; sourceTree = "<group>"; };
+		9702E0A92086544A00F830D5 /* ZLPhotoPickerGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoPickerGroupTableViewCell.m; sourceTree = "<group>"; };
+		9702E0AA2086544A00F830D5 /* ZLPhotoPickerImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerImageView.h; sourceTree = "<group>"; };
+		9702E0AB2086544A00F830D5 /* ZLPhotoPickerImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoPickerImageView.m; sourceTree = "<group>"; };
+		9702E0AC2086544A00F830D5 /* ZLPhotoPickerCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPhotoPickerCommon.h; sourceTree = "<group>"; };
+		9702E0AD2086544A00F830D5 /* ZLPhotoLib.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZLPhotoLib.bundle; sourceTree = "<group>"; };
+		B3804B6AB06300D403F334F1 /* libPods-HtmlWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HtmlWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECF268DC45640931B951B77 /* Pods-HtmlWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HtmlWebView.release.xcconfig"; path = "Pods/Target Support Files/Pods-HtmlWebView/Pods-HtmlWebView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9702E03E20864E5200F830D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4855C563D95B04E7BFCD0BA4 /* libPods-HtmlWebView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9702E03820864E5200F830D5 = {
+			isa = PBXGroup;
+			children = (
+				9702E04320864E5200F830D5 /* HtmlWebView */,
+				9702E04220864E5200F830D5 /* Products */,
+				CA4B41479BBEFD77D2A458B5 /* Pods */,
+				9889BAE12F8E6394E4CFF25A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9702E04220864E5200F830D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9702E04120864E5200F830D5 /* HtmlWebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9702E04320864E5200F830D5 /* HtmlWebView */ = {
+			isa = PBXGroup;
+			children = (
+				9702E06F2086544900F830D5 /* ZLPhotoLib */,
+				9702E0682086544500F830D5 /* DACircularProgress */,
+				9702E05D2086544000F830D5 /* Classes */,
+				9702E04420864E5200F830D5 /* AppDelegate.h */,
+				9702E04520864E5200F830D5 /* AppDelegate.m */,
+				9702E05A20864E7300F830D5 /* OneViewController.h */,
+				9702E05B20864E7300F830D5 /* OneViewController.m */,
+				9702E04720864E5200F830D5 /* ViewController.h */,
+				9702E04820864E5200F830D5 /* ViewController.m */,
+				9702E04A20864E5200F830D5 /* Main.storyboard */,
+				9702E04D20864E5200F830D5 /* Assets.xcassets */,
+				9702E04F20864E5200F830D5 /* LaunchScreen.storyboard */,
+				9702E05220864E5200F830D5 /* Info.plist */,
+				9702E05320864E5200F830D5 /* main.m */,
+			);
+			path = HtmlWebView;
+			sourceTree = "<group>";
+		};
+		9702E05D2086544000F830D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9702E05E2086544000F830D5 /* IMYWebView.h */,
+				9702E05F2086544000F830D5 /* IMYWebView.m */,
+				9702E0602086544000F830D5 /* UIWebViewProgress */,
+				9702E0632086544000F830D5 /* WYWeakScriptMessageDelegate.h */,
+				9702E0642086544000F830D5 /* WYWeakScriptMessageDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9702E0602086544000F830D5 /* UIWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				9702E0612086544000F830D5 /* IMY_NJKWebViewProgress.h */,
+				9702E0622086544000F830D5 /* IMY_NJKWebViewProgress.m */,
+			);
+			path = UIWebViewProgress;
+			sourceTree = "<group>";
+		};
+		9702E0682086544500F830D5 /* DACircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				9702E0692086544500F830D5 /* DACircularProgressView.h */,
+				9702E06A2086544500F830D5 /* DACircularProgressView.m */,
+				9702E06B2086544500F830D5 /* DALabeledCircularProgressView.h */,
+				9702E06C2086544500F830D5 /* DALabeledCircularProgressView.m */,
+			);
+			path = DACircularProgress;
+			sourceTree = "<group>";
+		};
+		9702E06F2086544900F830D5 /* ZLPhotoLib */ = {
+			isa = PBXGroup;
+			children = (
+				9702E0702086544900F830D5 /* Classes */,
+				9702E0AD2086544A00F830D5 /* ZLPhotoLib.bundle */,
+			);
+			path = ZLPhotoLib;
+			sourceTree = "<group>";
+		};
+		9702E0702086544900F830D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9702E0712086544900F830D5 /* Utils */,
+				9702E0792086544A00F830D5 /* ZLPhoto.h */,
+				9702E07A2086544A00F830D5 /* ZLPhotoBrowser */,
+				9702E08E2086544A00F830D5 /* ZLPhotoPicker */,
+				9702E0AC2086544A00F830D5 /* ZLPhotoPickerCommon.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9702E0712086544900F830D5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9702E0722086544900F830D5 /* Category */,
+				9702E0772086544A00F830D5 /* Resource */,
+				9702E0782086544A00F830D5 /* Views */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9702E0722086544900F830D5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9702E0732086544900F830D5 /* UIImage+ZLPhotoLib.h */,
+				9702E0742086544900F830D5 /* UIImage+ZLPhotoLib.m */,
+				9702E0752086544A00F830D5 /* UIView+ZLExtension.h */,
+				9702E0762086544A00F830D5 /* UIView+ZLExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9702E0772086544A00F830D5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9702E0782086544A00F830D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9702E07A2086544A00F830D5 /* ZLPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				9702E07B2086544A00F830D5 /* Models */,
+				9702E0802086544A00F830D5 /* ViewControllers */,
+				9702E0852086544A00F830D5 /* Views */,
+			);
+			path = ZLPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		9702E07B2086544A00F830D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9702E07C2086544A00F830D5 /* ZLPhotoPickerBrowserPhoto.h */,
+				9702E07D2086544A00F830D5 /* ZLPhotoPickerBrowserPhoto.m */,
+				9702E07E2086544A00F830D5 /* ZLPhotoRect.h */,
+				9702E07F2086544A00F830D5 /* ZLPhotoRect.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9702E0802086544A00F830D5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9702E0812086544A00F830D5 /* ZLPhotoPickerBrowserViewController+SignlePhotoBrowser.h */,
+				9702E0822086544A00F830D5 /* ZLPhotoPickerBrowserViewController+SignlePhotoBrowser.m */,
+				9702E0832086544A00F830D5 /* ZLPhotoPickerBrowserViewController.h */,
+				9702E0842086544A00F830D5 /* ZLPhotoPickerBrowserViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9702E0852086544A00F830D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9702E0862086544A00F830D5 /* ZLPhotoPickerBrowserPhotoImageView.h */,
+				9702E0872086544A00F830D5 /* ZLPhotoPickerBrowserPhotoImageView.m */,
+				9702E0882086544A00F830D5 /* ZLPhotoPickerBrowserPhotoScrollView.h */,
+				9702E0892086544A00F830D5 /* ZLPhotoPickerBrowserPhotoScrollView.m */,
+				9702E08A2086544A00F830D5 /* ZLPhotoPickerBrowserPhotoView.h */,
+				9702E08B2086544A00F830D5 /* ZLPhotoPickerBrowserPhotoView.m */,
+				9702E08C2086544A00F830D5 /* ZLPhotoPickerCustomToolBarView.h */,
+				9702E08D2086544A00F830D5 /* ZLPhotoPickerCustomToolBarView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9702E08E2086544A00F830D5 /* ZLPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				9702E08F2086544A00F830D5 /* Models */,
+				9702E0962086544A00F830D5 /* ViewControllers */,
+				9702E0A12086544A00F830D5 /* Views */,
+			);
+			path = ZLPhotoPicker;
+			sourceTree = "<group>";
+		};
+		9702E08F2086544A00F830D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9702E0902086544A00F830D5 /* ZLPhotoAssets.h */,
+				9702E0912086544A00F830D5 /* ZLPhotoAssets.m */,
+				9702E0922086544A00F830D5 /* ZLPhotoPickerDatas.h */,
+				9702E0932086544A00F830D5 /* ZLPhotoPickerDatas.m */,
+				9702E0942086544A00F830D5 /* ZLPhotoPickerGroup.h */,
+				9702E0952086544A00F830D5 /* ZLPhotoPickerGroup.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9702E0962086544A00F830D5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9702E0972086544A00F830D5 /* UIViewController+Alert.h */,
+				9702E0982086544A00F830D5 /* UIViewController+Alert.m */,
+				9702E0992086544A00F830D5 /* ZLNavigationController.h */,
+				9702E09A2086544A00F830D5 /* ZLNavigationController.m */,
+				9702E09B2086544A00F830D5 /* ZLPhotoPickerAssetsViewController.h */,
+				9702E09C2086544A00F830D5 /* ZLPhotoPickerAssetsViewController.m */,
+				9702E09D2086544A00F830D5 /* ZLPhotoPickerGroupViewController.h */,
+				9702E09E2086544A00F830D5 /* ZLPhotoPickerGroupViewController.m */,
+				9702E09F2086544A00F830D5 /* ZLPhotoPickerViewController.h */,
+				9702E0A02086544A00F830D5 /* ZLPhotoPickerViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9702E0A12086544A00F830D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9702E0A22086544A00F830D5 /* ZLPhotoPickerCollectionView.h */,
+				9702E0A32086544A00F830D5 /* ZLPhotoPickerCollectionView.m */,
+				9702E0A42086544A00F830D5 /* ZLPhotoPickerCollectionViewCell.h */,
+				9702E0A52086544A00F830D5 /* ZLPhotoPickerCollectionViewCell.m */,
+				9702E0A62086544A00F830D5 /* ZLPhotoPickerFooterCollectionReusableView.h */,
+				9702E0A72086544A00F830D5 /* ZLPhotoPickerFooterCollectionReusableView.m */,
+				9702E0A82086544A00F830D5 /* ZLPhotoPickerGroupTableViewCell.h */,
+				9702E0A92086544A00F830D5 /* ZLPhotoPickerGroupTableViewCell.m */,
+				9702E0AA2086544A00F830D5 /* ZLPhotoPickerImageView.h */,
+				9702E0AB2086544A00F830D5 /* ZLPhotoPickerImageView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9889BAE12F8E6394E4CFF25A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3804B6AB06300D403F334F1 /* libPods-HtmlWebView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA4B41479BBEFD77D2A458B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79FE45E22AF687EEBA6C2163 /* Pods-HtmlWebView.debug.xcconfig */,
+				EECF268DC45640931B951B77 /* Pods-HtmlWebView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9702E04020864E5200F830D5 /* HtmlWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9702E05720864E5200F830D5 /* Build configuration list for PBXNativeTarget "HtmlWebView" */;
+			buildPhases = (
+				2566F42CF7A0588DD3E84FD3 /* [CP] Check Pods Manifest.lock */,
+				9702E03D20864E5200F830D5 /* Sources */,
+				9702E03E20864E5200F830D5 /* Frameworks */,
+				9702E03F20864E5200F830D5 /* Resources */,
+				FA16A86EDA3313C49B63B211 /* [CP] Embed Pods Frameworks */,
+				D6BDC7579ECC653A05E23D42 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HtmlWebView;
+			productName = HtmlWebView;
+			productReference = 9702E04120864E5200F830D5 /* HtmlWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9702E03920864E5200F830D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "邱久";
+				TargetAttributes = {
+					9702E04020864E5200F830D5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9702E03C20864E5200F830D5 /* Build configuration list for PBXProject "HtmlWebView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9702E03820864E5200F830D5;
+			productRefGroup = 9702E04220864E5200F830D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9702E04020864E5200F830D5 /* HtmlWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9702E03F20864E5200F830D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9702E0C52086544A00F830D5 /* ZLPhotoLib.bundle in Resources */,
+				9702E05120864E5200F830D5 /* LaunchScreen.storyboard in Resources */,
+				9702E04E20864E5200F830D5 /* Assets.xcassets in Resources */,
+				9702E04C20864E5200F830D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2566F42CF7A0588DD3E84FD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HtmlWebView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6BDC7579ECC653A05E23D42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HtmlWebView/Pods-HtmlWebView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA16A86EDA3313C49B63B211 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HtmlWebView/Pods-HtmlWebView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9702E03D20864E5200F830D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9702E0B92086544A00F830D5 /* ZLPhotoPickerDatas.m in Sources */,
+				9702E0662086544000F830D5 /* IMY_NJKWebViewProgress.m in Sources */,
+				9702E06E2086544500F830D5 /* DALabeledCircularProgressView.m in Sources */,
+				9702E0BE2086544A00F830D5 /* ZLPhotoPickerGroupViewController.m in Sources */,
+				9702E04920864E5200F830D5 /* ViewController.m in Sources */,
+				9702E0C12086544A00F830D5 /* ZLPhotoPickerCollectionViewCell.m in Sources */,
+				9702E0BB2086544A00F830D5 /* UIViewController+Alert.m in Sources */,
+				9702E0652086544000F830D5 /* IMYWebView.m in Sources */,
+				9702E05420864E5200F830D5 /* main.m in Sources */,
+				9702E0672086544000F830D5 /* WYWeakScriptMessageDelegate.m in Sources */,
+				9702E0B22086544A00F830D5 /* ZLPhotoPickerBrowserViewController+SignlePhotoBrowser.m in Sources */,
+				9702E0C32086544A00F830D5 /* ZLPhotoPickerGroupTableViewCell.m in Sources */,
+				9702E0B72086544A00F830D5 /* ZLPhotoPickerCustomToolBarView.m in Sources */,
+				9702E06D2086544500F830D5 /* DACircularProgressView.m in Sources */,
+				9702E0C22086544A00F830D5 /* ZLPhotoPickerFooterCollectionReusableView.m in Sources */,
+				9702E0B52086544A00F830D5 /* ZLPhotoPickerBrowserPhotoScrollView.m in Sources */,
+				9702E04620864E5200F830D5 /* AppDelegate.m in Sources */,
+				9702E0B42086544A00F830D5 /* ZLPhotoPickerBrowserPhotoImageView.m in Sources */,
+				9702E0AE2086544A00F830D5 /* UIImage+ZLPhotoLib.m in Sources */,
+				9702E0B12086544A00F830D5 /* ZLPhotoRect.m in Sources */,
+				9702E0B62086544A00F830D5 /* ZLPhotoPickerBrowserPhotoView.m in Sources */,
+				9702E05C20864E7300F830D5 /* OneViewController.m in Sources */,
+				9702E0B32086544A00F830D5 /* ZLPhotoPickerBrowserViewController.m in Sources */,
+				9702E0B82086544A00F830D5 /* ZLPhotoAssets.m in Sources */,
+				9702E0C02086544A00F830D5 /* ZLPhotoPickerCollectionView.m in Sources */,
+				9702E0BF2086544A00F830D5 /* ZLPhotoPickerViewController.m in Sources */,
+				9702E0BD2086544A00F830D5 /* ZLPhotoPickerAssetsViewController.m in Sources */,
+				9702E0B02086544A00F830D5 /* ZLPhotoPickerBrowserPhoto.m in Sources */,
+				9702E0BC2086544A00F830D5 /* ZLNavigationController.m in Sources */,
+				9702E0BA2086544A00F830D5 /* ZLPhotoPickerGroup.m in Sources */,
+				9702E0AF2086544A00F830D5 /* UIView+ZLExtension.m in Sources */,
+				9702E0C42086544A00F830D5 /* ZLPhotoPickerImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9702E04A20864E5200F830D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9702E04B20864E5200F830D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9702E04F20864E5200F830D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9702E05020864E5200F830D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9702E05520864E5200F830D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9702E05620864E5200F830D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9702E05820864E5200F830D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79FE45E22AF687EEBA6C2163 /* Pods-HtmlWebView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JVXD85Z9KW;
+				INFOPLIST_FILE = HtmlWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.disanji.WuRenJi.HtmlWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9702E05920864E5200F830D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EECF268DC45640931B951B77 /* Pods-HtmlWebView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JVXD85Z9KW;
+				INFOPLIST_FILE = HtmlWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.disanji.WuRenJi.HtmlWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9702E03C20864E5200F830D5 /* Build configuration list for PBXProject "HtmlWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9702E05520864E5200F830D5 /* Debug */,
+				9702E05620864E5200F830D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9702E05720864E5200F830D5 /* Build configuration list for PBXNativeTarget "HtmlWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9702E05820864E5200F830D5 /* Debug */,
+				9702E05920864E5200F830D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9702E03920864E5200F830D5 /* Project object */;
+}
