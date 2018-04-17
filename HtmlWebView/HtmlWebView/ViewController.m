@@ -18,7 +18,7 @@
     NSInteger index;
     
 }
-
+/** IMYWebView 实际开发可替换*/
 @property (nonatomic,strong) UIWebView *web;
 
 @property (nonatomic , strong) NSMutableArray *assets;
@@ -30,6 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    
     
     UIWebView *web = [[UIWebView alloc] initWithFrame:self.view.frame];
     web.delegate = self;
