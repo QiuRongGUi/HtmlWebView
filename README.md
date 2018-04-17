@@ -4,7 +4,7 @@ iOS webView 加载 HTML，点击图片或链接相应操作
 > 开发中，需要展示 HTML 类型的数据，HTML 相应包含图片或链接需要处理，多数选择的 UIWebView 或 WKWebView（关于两者的区别不明白，请自行百度），今天把一个三方类介绍给大家，那就是 [IMYWebView](https://link.jianshu.com/?t=https://github.com/li6185377/IMYWebView)，这个类兼容 WKWebView 和 UIWebView，实现了 UIWebView 到 WKWebView 的对接，即使你之前的项目是用的 UIWebView ，那也没关系，只要将 UIWebView 换成 IMYWebView 就可以了。
 
 
-![HtmlWebView.gif](https://upload-images.jianshu.io/upload_images/728237-1def51b70bcf082c.gif?imageMogr2/auto-orient/strip)
+![HtmlWebView.gif](http://ohwf8vjl9.bkt.clouddn.com/0.gif)
 
 图片或链接相应操作，具体详情请查看 Demo
 ````
